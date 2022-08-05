@@ -68,7 +68,7 @@ func getUserInput() (string, string, string, uint) {
 	var lastName string
 	var email string
 	var userRooms uint
-	// ask user for their name
+
 	fmt.Print("What is your first name? ")
 	fmt.Scan(&firstName)
 
